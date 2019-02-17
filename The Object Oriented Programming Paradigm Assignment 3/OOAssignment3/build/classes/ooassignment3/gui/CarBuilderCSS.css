@@ -1,0 +1,29 @@
+/* 
+    Created on : 08-Dec-2016, 17:11:32
+    Author     : Douglas Williams
+    This file syles the GUI views in this application.
+    CSS file
+*/
+
+.root{
+    -fx-background-color: #87CEFA;
+}
+
+.label{
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow(gaussian,rgba(255,255,255,0.5) , 0,0,0,1);
+}
+
+#imageViews:hover{
+   -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+#welcome-text{
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #818181;
+    -fx-effect: innershadow(three-pass-box,rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
