@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9107C5C620B87A4C0089F346 /* RegisterTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9107C5C520B87A4C0089F346 /* RegisterTVC.swift */; };
+		911E4DD820CC72D70074AA01 /* EditQuizTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911E4DD720CC72D70074AA01 /* EditQuizTVC.swift */; };
+		91344CA3211CD2650039F5FB /* IntroductionPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91344CA2211CD2650039F5FB /* IntroductionPVC.swift */; };
+		91364CFB1F7943CA003E607F /* PointsOfInterestListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91364CFA1F7943CA003E607F /* PointsOfInterestListTVC.swift */; };
+		91364CFD1F795AE0003E607F /* QuizzesListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91364CFC1F795AE0003E607F /* QuizzesListTVC.swift */; };
+		91364CFF1F796413003E607F /* QuestionsListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91364CFE1F796413003E607F /* QuestionsListTVC.swift */; };
+		91364D021F796E5F003E607F /* AddPointOfInterestTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91364D011F796E5F003E607F /* AddPointOfInterestTVC.swift */; };
+		913A29791F78067E0006A235 /* ProfileTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913A29781F78067E0006A235 /* ProfileTVC.swift */; };
+		913E4F3A1F752E9B00C8CC67 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913E4F391F752E9B00C8CC67 /* LoginVC.swift */; };
+		913E4F3C1F7582F000C8CC67 /* LeftIconTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913E4F3B1F7582F000C8CC67 /* LeftIconTF.swift */; };
+		913E99FA20F6BCA600F5C2E3 /* AuthorisedUserTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913E99F920F6BCA600F5C2E3 /* AuthorisedUserTBC.swift */; };
+		913E99FC20F6BD3400F5C2E3 /* AdministratorUserTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913E99FB20F6BD3400F5C2E3 /* AdministratorUserTBC.swift */; };
+		913E99FE20F6C17300F5C2E3 /* BasicUserTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913E99FD20F6C17300F5C2E3 /* BasicUserTBC.swift */; };
+		913EE0D520751D37000A6A2F /* AddQuizTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913EE0D420751D37000A6A2F /* AddQuizTVC.swift */; };
+		913EE0D7207530D0000A6A2F /* AddQuestionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913EE0D6207530D0000A6A2F /* AddQuestionTVC.swift */; };
+		913EE0DA2075A5F1000A6A2F /* EditPointOfInterestTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913EE0D92075A5F1000A6A2F /* EditPointOfInterestTVC.swift */; };
+		913EEB9520F8E092006B8D04 /* PointsOfInterestAdminListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913EEB9420F8E092006B8D04 /* PointsOfInterestAdminListTVC.swift */; };
+		913EEB9820F8E0C0006B8D04 /* QuizzesAdminListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913EEB9720F8E0C0006B8D04 /* QuizzesAdminListTVC.swift */; };
+		913EEB9A20F8E0D8006B8D04 /* QuestionsAdminListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913EEB9920F8E0D8006B8D04 /* QuestionsAdminListTVC.swift */; };
+		913EEB9C20F91A6F006B8D04 /* AdministratorPanelTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913EEB9B20F91A6F006B8D04 /* AdministratorPanelTVC.swift */; };
+		914697DA21011BC700F259FA /* UserTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914697D921011BC700F259FA /* UserTVCell.swift */; };
+		9149A7E020F810E50067CBBF /* UsersTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9149A7DF20F810E50067CBBF /* UsersTVC.swift */; };
+		9149A7E220F811150067CBBF /* PointsOfInterestChangeRequestsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9149A7E120F811150067CBBF /* PointsOfInterestChangeRequestsTVC.swift */; };
+		9149A7E420F8112E0067CBBF /* QuizzesChangeRequestsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9149A7E320F8112E0067CBBF /* QuizzesChangeRequestsTVC.swift */; };
+		9149A7E620F8113D0067CBBF /* QuestionsChangeRequestsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9149A7E520F8113D0067CBBF /* QuestionsChangeRequestsTVC.swift */; };
+		9149A7E920F81DDC0067CBBF /* ChangeRequestTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9149A7E720F81DDC0067CBBF /* ChangeRequestTVCell.swift */; };
+		9149A7EA20F81DDC0067CBBF /* ChangeRequestTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9149A7E820F81DDC0067CBBF /* ChangeRequestTVCell.xib */; };
+		9149F43420C1ED5F00603256 /* HeaderCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9149F43220C1ED5E00603256 /* HeaderCellTableViewCell.swift */; };
+		9149F43520C1ED5F00603256 /* HeaderCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9149F43320C1ED5F00603256 /* HeaderCellTableViewCell.xib */; };
+		914AE1BB20C3158F00FFEC81 /* QuizResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AE1BA20C3158F00FFEC81 /* QuizResultsVC.swift */; };
+		914AE1BD20C3199700FFEC81 /* ResultsCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AE1BC20C3199700FFEC81 /* ResultsCircle.swift */; };
+		91541F4D1F54357D0046DF31 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91541F4C1F54357D0046DF31 /* SwiftyJSON.swift */; };
+		91541F4F1F5436650046DF31 /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91541F4E1F5436650046DF31 /* DatabaseHandler.swift */; };
+		91549C8E1F6D632200993EDB /* CoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91549C8D1F6D632200993EDB /* CoreDataHandler.swift */; };
+		9159E0F82124965F0074643E /* Introduction1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9159E0F72124965F0074643E /* Introduction1VC.swift */; };
+		9159E0FA212496730074643E /* Introduction5VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9159E0F9212496730074643E /* Introduction5VC.swift */; };
+		917512C41F72E37E002F7061 /* PostDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917512C31F72E37E002F7061 /* PostDictionary.swift */; };
+		918367D620CFDC4B00281BC3 /* EditQuestionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918367D520CFDC4B00281BC3 /* EditQuestionTVC.swift */; };
+		9189513A1F4C8DF600004189 /* MapTabVCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918951391F4C8DF600004189 /* MapTabVCTest.swift */; };
+		9194018A208A46DF00374D0A /* ClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91940189208A46DF00374D0A /* ClassExtensions.swift */; };
+		91A2FEA21F7DB8E000AF6818 /* QuizzesWithinPointOfInterestAreaListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A2FEA11F7DB8E000AF6818 /* QuizzesWithinPointOfInterestAreaListTVC.swift */; };
+		91A9EA35205C03E200634BBF /* QuizTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A9EA34205C03E200634BBF /* QuizTVC.swift */; };
+		91AF65521F4C9D6A00CA9F93 /* MapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AF65511F4C9D6A00CA9F93 /* MapViewExtension.swift */; };
+		91AF65541F4C9DA500CA9F93 /* MKPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AF65531F4C9DA500CA9F93 /* MKPin.swift */; };
+		91C0B7831F6F0338005ABCBA /* CoreDataHandlerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C0B7821F6F0338005ABCBA /* CoreDataHandlerTest.swift */; };
+		91D85D951F4B524A00541F54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D85D941F4B524A00541F54 /* AppDelegate.swift */; };
+		91D85D971F4B524A00541F54 /* MapTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D85D961F4B524A00541F54 /* MapTabVC.swift */; };
+		91D85D9A1F4B524A00541F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D85D981F4B524A00541F54 /* Main.storyboard */; };
+		91D85D9D1F4B524A00541F54 /* HistoricalQuizzes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91D85D9B1F4B524A00541F54 /* HistoricalQuizzes.xcdatamodeld */; };
+		91D85D9F1F4B524A00541F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D85D9E1F4B524A00541F54 /* Assets.xcassets */; };
+		91D85DA21F4B524A00541F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D85DA01F4B524A00541F54 /* LaunchScreen.storyboard */; };
+		91D85DB81F4B524B00541F54 /* HistoricalQuizzesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D85DB71F4B524B00541F54 /* HistoricalQuizzesUITests.swift */; };
+		91D85DCC1F4B8B8000541F54 /* LocationManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D85DCB1F4B8B8000541F54 /* LocationManagerExtension.swift */; };
+		91D85DCF1F4B905100541F54 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D85DCE1F4B905100541F54 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		918951341F4C8DD400004189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D85D891F4B524A00541F54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D85D901F4B524A00541F54;
+			remoteInfo = HistoricalQuizzes;
+		};
+		91D85DB41F4B524B00541F54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D85D891F4B524A00541F54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D85D901F4B524A00541F54;
+			remoteInfo = HistoricalQuizzes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9107C5C520B87A4C0089F346 /* RegisterTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterTVC.swift; sourceTree = "<group>"; };
+		911E4DD720CC72D70074AA01 /* EditQuizTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditQuizTVC.swift; sourceTree = "<group>"; };
+		91344CA2211CD2650039F5FB /* IntroductionPVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductionPVC.swift; sourceTree = "<group>"; };
+		91364CFA1F7943CA003E607F /* PointsOfInterestListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointsOfInterestListTVC.swift; sourceTree = "<group>"; };
+		91364CFC1F795AE0003E607F /* QuizzesListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizzesListTVC.swift; sourceTree = "<group>"; };
+		91364CFE1F796413003E607F /* QuestionsListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsListTVC.swift; sourceTree = "<group>"; };
+		91364D011F796E5F003E607F /* AddPointOfInterestTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPointOfInterestTVC.swift; sourceTree = "<group>"; };
+		913A29781F78067E0006A235 /* ProfileTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTVC.swift; sourceTree = "<group>"; };
+		913E4F391F752E9B00C8CC67 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		913E4F3B1F7582F000C8CC67 /* LeftIconTF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftIconTF.swift; sourceTree = "<group>"; };
+		913E99F920F6BCA600F5C2E3 /* AuthorisedUserTBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorisedUserTBC.swift; sourceTree = "<group>"; };
+		913E99FB20F6BD3400F5C2E3 /* AdministratorUserTBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdministratorUserTBC.swift; sourceTree = "<group>"; };
+		913E99FD20F6C17300F5C2E3 /* BasicUserTBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicUserTBC.swift; sourceTree = "<group>"; };
+		913EE0D420751D37000A6A2F /* AddQuizTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddQuizTVC.swift; sourceTree = "<group>"; };
+		913EE0D6207530D0000A6A2F /* AddQuestionTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddQuestionTVC.swift; sourceTree = "<group>"; };
+		913EE0D92075A5F1000A6A2F /* EditPointOfInterestTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPointOfInterestTVC.swift; sourceTree = "<group>"; };
+		913EEB9420F8E092006B8D04 /* PointsOfInterestAdminListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointsOfInterestAdminListTVC.swift; sourceTree = "<group>"; };
+		913EEB9720F8E0C0006B8D04 /* QuizzesAdminListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizzesAdminListTVC.swift; sourceTree = "<group>"; };
+		913EEB9920F8E0D8006B8D04 /* QuestionsAdminListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsAdminListTVC.swift; sourceTree = "<group>"; };
+		913EEB9B20F91A6F006B8D04 /* AdministratorPanelTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdministratorPanelTVC.swift; sourceTree = "<group>"; };
+		914697D921011BC700F259FA /* UserTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTVCell.swift; sourceTree = "<group>"; };
+		9149A7DF20F810E50067CBBF /* UsersTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersTVC.swift; sourceTree = "<group>"; };
+		9149A7E120F811150067CBBF /* PointsOfInterestChangeRequestsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointsOfInterestChangeRequestsTVC.swift; sourceTree = "<group>"; };
+		9149A7E320F8112E0067CBBF /* QuizzesChangeRequestsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizzesChangeRequestsTVC.swift; sourceTree = "<group>"; };
+		9149A7E520F8113D0067CBBF /* QuestionsChangeRequestsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsChangeRequestsTVC.swift; sourceTree = "<group>"; };
+		9149A7E720F81DDC0067CBBF /* ChangeRequestTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeRequestTVCell.swift; sourceTree = "<group>"; };
+		9149A7E820F81DDC0067CBBF /* ChangeRequestTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeRequestTVCell.xib; sourceTree = "<group>"; };
+		9149F43220C1ED5E00603256 /* HeaderCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCellTableViewCell.swift; sourceTree = "<group>"; };
+		9149F43320C1ED5F00603256 /* HeaderCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCellTableViewCell.xib; sourceTree = "<group>"; };
+		914AE1BA20C3158F00FFEC81 /* QuizResultsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizResultsVC.swift; sourceTree = "<group>"; };
+		914AE1BC20C3199700FFEC81 /* ResultsCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsCircle.swift; sourceTree = "<group>"; };
+		91541F4C1F54357D0046DF31 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = HistoricalQuizzes/SwiftyJSON.swift; sourceTree = "<group>"; };
+		91541F4E1F5436650046DF31 /* DatabaseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
+		91549C8D1F6D632200993EDB /* CoreDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHandler.swift; sourceTree = "<group>"; };
+		9159E0F72124965F0074643E /* Introduction1VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Introduction1VC.swift; sourceTree = "<group>"; };
+		9159E0F9212496730074643E /* Introduction5VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Introduction5VC.swift; sourceTree = "<group>"; };
+		917512C31F72E37E002F7061 /* PostDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDictionary.swift; sourceTree = "<group>"; };
+		918367D520CFDC4B00281BC3 /* EditQuestionTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditQuestionTVC.swift; sourceTree = "<group>"; };
+		9189512F1F4C8DD400004189 /* HistoricalQuizzesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HistoricalQuizzesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		918951331F4C8DD400004189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		918951391F4C8DF600004189 /* MapTabVCTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTabVCTest.swift; sourceTree = "<group>"; };
+		91940189208A46DF00374D0A /* ClassExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassExtensions.swift; sourceTree = "<group>"; };
+		91A2FEA11F7DB8E000AF6818 /* QuizzesWithinPointOfInterestAreaListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizzesWithinPointOfInterestAreaListTVC.swift; sourceTree = "<group>"; };
+		91A9EA34205C03E200634BBF /* QuizTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizTVC.swift; sourceTree = "<group>"; };
+		91AF65511F4C9D6A00CA9F93 /* MapViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewExtension.swift; sourceTree = "<group>"; };
+		91AF65531F4C9DA500CA9F93 /* MKPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKPin.swift; sourceTree = "<group>"; };
+		91C0B7821F6F0338005ABCBA /* CoreDataHandlerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHandlerTest.swift; sourceTree = "<group>"; };
+		91D85D911F4B524A00541F54 /* HistoricalQuizzes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HistoricalQuizzes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D85D941F4B524A00541F54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91D85D961F4B524A00541F54 /* MapTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTabVC.swift; sourceTree = "<group>"; };
+		91D85D991F4B524A00541F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91D85D9C1F4B524A00541F54 /* HistoricalQuizzes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HistoricalQuizzes.xcdatamodel; sourceTree = "<group>"; };
+		91D85D9E1F4B524A00541F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91D85DA11F4B524A00541F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91D85DA31F4B524A00541F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D85DB31F4B524B00541F54 /* HistoricalQuizzesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HistoricalQuizzesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D85DB71F4B524B00541F54 /* HistoricalQuizzesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalQuizzesUITests.swift; sourceTree = "<group>"; };
+		91D85DB91F4B524B00541F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D85DCB1F4B8B8000541F54 /* LocationManagerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManagerExtension.swift; sourceTree = "<group>"; };
+		91D85DCE1F4B905100541F54 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9189512C1F4C8DD400004189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D85D8E1F4B524A00541F54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D85DCF1F4B905100541F54 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D85DB01F4B524B00541F54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9107C5C420B87A1D0089F346 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				913A29781F78067E0006A235 /* ProfileTVC.swift */,
+				913E4F391F752E9B00C8CC67 /* LoginVC.swift */,
+				913E4F3B1F7582F000C8CC67 /* LeftIconTF.swift */,
+				9107C5C520B87A4C0089F346 /* RegisterTVC.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		91344CA1211CD2270039F5FB /* IntroductionSection */ = {
+			isa = PBXGroup;
+			children = (
+				91344CA2211CD2650039F5FB /* IntroductionPVC.swift */,
+				9159E0F72124965F0074643E /* Introduction1VC.swift */,
+				9159E0F9212496730074643E /* Introduction5VC.swift */,
+			);
+			name = IntroductionSection;
+			sourceTree = "<group>";
+		};
+		91364CF81F79433E003E607F /* UserSection */ = {
+			isa = PBXGroup;
+			children = (
+				91364CF91F794395003E607F /* ListSection */,
+				9149A7DE20F8104B0067CBBF /* AdministratorSection */,
+				913E99F820F6BC4100F5C2E3 /* TabBarControllers */,
+				9107C5C420B87A1D0089F346 /* Login */,
+			);
+			name = UserSection;
+			sourceTree = "<group>";
+		};
+		91364CF91F794395003E607F /* ListSection */ = {
+			isa = PBXGroup;
+			children = (
+				91A9EA33205C03A700634BBF /* QuizSection */,
+				91A2FEA01F7DB87400AF6818 /* UserCreatedSection */,
+			);
+			name = ListSection;
+			sourceTree = "<group>";
+		};
+		91364D001F796E37003E607F /* AddingSection */ = {
+			isa = PBXGroup;
+			children = (
+				91364D011F796E5F003E607F /* AddPointOfInterestTVC.swift */,
+				913EE0D420751D37000A6A2F /* AddQuizTVC.swift */,
+				913EE0D6207530D0000A6A2F /* AddQuestionTVC.swift */,
+			);
+			name = AddingSection;
+			sourceTree = "<group>";
+		};
+		913E99F820F6BC4100F5C2E3 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				913E99F920F6BCA600F5C2E3 /* AuthorisedUserTBC.swift */,
+				913E99FB20F6BD3400F5C2E3 /* AdministratorUserTBC.swift */,
+				913E99FD20F6C17300F5C2E3 /* BasicUserTBC.swift */,
+			);
+			name = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		913EE0D82075A5BD000A6A2F /* EditingSection */ = {
+			isa = PBXGroup;
+			children = (
+				913EE0D92075A5F1000A6A2F /* EditPointOfInterestTVC.swift */,
+				911E4DD720CC72D70074AA01 /* EditQuizTVC.swift */,
+				918367D520CFDC4B00281BC3 /* EditQuestionTVC.swift */,
+			);
+			name = EditingSection;
+			sourceTree = "<group>";
+		};
+		913EEB9320F8E05A006B8D04 /* AdministratorLists */ = {
+			isa = PBXGroup;
+			children = (
+				913EEB9420F8E092006B8D04 /* PointsOfInterestAdminListTVC.swift */,
+				913EEB9720F8E0C0006B8D04 /* QuizzesAdminListTVC.swift */,
+				913EEB9920F8E0D8006B8D04 /* QuestionsAdminListTVC.swift */,
+			);
+			name = AdministratorLists;
+			sourceTree = "<group>";
+		};
+		913EEB9620F8E0A7006B8D04 /* ChangeRequests */ = {
+			isa = PBXGroup;
+			children = (
+				9149A7E120F811150067CBBF /* PointsOfInterestChangeRequestsTVC.swift */,
+				9149A7E320F8112E0067CBBF /* QuizzesChangeRequestsTVC.swift */,
+				9149A7E520F8113D0067CBBF /* QuestionsChangeRequestsTVC.swift */,
+				9149A7E720F81DDC0067CBBF /* ChangeRequestTVCell.swift */,
+				9149A7E820F81DDC0067CBBF /* ChangeRequestTVCell.xib */,
+			);
+			name = ChangeRequests;
+			sourceTree = "<group>";
+		};
+		914697D821011BA200F259FA /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				9149A7DF20F810E50067CBBF /* UsersTVC.swift */,
+				914697D921011BC700F259FA /* UserTVCell.swift */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		9149A7DE20F8104B0067CBBF /* AdministratorSection */ = {
+			isa = PBXGroup;
+			children = (
+				913EEB9B20F91A6F006B8D04 /* AdministratorPanelTVC.swift */,
+				913EEB9320F8E05A006B8D04 /* AdministratorLists */,
+				914697D821011BA200F259FA /* Users */,
+				913EEB9620F8E0A7006B8D04 /* ChangeRequests */,
+			);
+			name = AdministratorSection;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		91541F481F5434470046DF31 /* MapSection */ = {
+			isa = PBXGroup;
+			children = (
+				91D85D961F4B524A00541F54 /* MapTabVC.swift */,
+				91D85DCB1F4B8B8000541F54 /* LocationManagerExtension.swift */,
+				91AF65511F4C9D6A00CA9F93 /* MapViewExtension.swift */,
+				91AF65531F4C9DA500CA9F93 /* MKPin.swift */,
+			);
+			name = MapSection;
+			sourceTree = "<group>";
+		};
+		91541F491F5434710046DF31 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				91D85D941F4B524A00541F54 /* AppDelegate.swift */,
+				91D85DA01F4B524A00541F54 /* LaunchScreen.storyboard */,
+				91D85DA31F4B524A00541F54 /* Info.plist */,
+				91D85D9E1F4B524A00541F54 /* Assets.xcassets */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		91541F4A1F5434970046DF31 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				91D85D9B1F4B524A00541F54 /* HistoricalQuizzes.xcdatamodeld */,
+				91541F4E1F5436650046DF31 /* DatabaseHandler.swift */,
+				917512C31F72E37E002F7061 /* PostDictionary.swift */,
+				91549C8D1F6D632200993EDB /* CoreDataHandler.swift */,
+				91940189208A46DF00374D0A /* ClassExtensions.swift */,
+				91541F4B1F5434EF0046DF31 /* ThirdParty */,
+			);
+			name = Data;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		91541F4B1F5434EF0046DF31 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				91541F4C1F54357D0046DF31 /* SwiftyJSON.swift */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		918951301F4C8DD400004189 /* HistoricalQuizzesTests */ = {
+			isa = PBXGroup;
+			children = (
+				91C0B7821F6F0338005ABCBA /* CoreDataHandlerTest.swift */,
+				918951391F4C8DF600004189 /* MapTabVCTest.swift */,
+				918951331F4C8DD400004189 /* Info.plist */,
+			);
+			path = HistoricalQuizzesTests;
+			sourceTree = "<group>";
+		};
+		91A2FEA01F7DB87400AF6818 /* UserCreatedSection */ = {
+			isa = PBXGroup;
+			children = (
+				91364CFA1F7943CA003E607F /* PointsOfInterestListTVC.swift */,
+				91364CFC1F795AE0003E607F /* QuizzesListTVC.swift */,
+				91364CFE1F796413003E607F /* QuestionsListTVC.swift */,
+			);
+			name = UserCreatedSection;
+			sourceTree = "<group>";
+		};
+		91A9EA33205C03A700634BBF /* QuizSection */ = {
+			isa = PBXGroup;
+			children = (
+				914AE1BA20C3158F00FFEC81 /* QuizResultsVC.swift */,
+				91A9EA34205C03E200634BBF /* QuizTVC.swift */,
+				91A2FEA11F7DB8E000AF6818 /* QuizzesWithinPointOfInterestAreaListTVC.swift */,
+				9149F43220C1ED5E00603256 /* HeaderCellTableViewCell.swift */,
+				9149F43320C1ED5F00603256 /* HeaderCellTableViewCell.xib */,
+				914AE1BC20C3199700FFEC81 /* ResultsCircle.swift */,
+			);
+			name = QuizSection;
+			sourceTree = "<group>";
+		};
+		91D85D881F4B524A00541F54 = {
+			isa = PBXGroup;
+			children = (
+				91D85D931F4B524A00541F54 /* HistoricalQuizzes */,
+				91D85DB61F4B524B00541F54 /* HistoricalQuizzesUITests */,
+				918951301F4C8DD400004189 /* HistoricalQuizzesTests */,
+				91D85D921F4B524A00541F54 /* Products */,
+				91D85DCD1F4B905100541F54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91D85D921F4B524A00541F54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91D85D911F4B524A00541F54 /* HistoricalQuizzes.app */,
+				91D85DB31F4B524B00541F54 /* HistoricalQuizzesUITests.xctest */,
+				9189512F1F4C8DD400004189 /* HistoricalQuizzesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91D85D931F4B524A00541F54 /* HistoricalQuizzes */ = {
+			isa = PBXGroup;
+			children = (
+				91D85D981F4B524A00541F54 /* Main.storyboard */,
+				91344CA1211CD2270039F5FB /* IntroductionSection */,
+				913EE0D82075A5BD000A6A2F /* EditingSection */,
+				91364D001F796E37003E607F /* AddingSection */,
+				91364CF81F79433E003E607F /* UserSection */,
+				91541F481F5434470046DF31 /* MapSection */,
+				91541F4A1F5434970046DF31 /* Data */,
+				91541F491F5434710046DF31 /* Misc */,
+			);
+			path = HistoricalQuizzes;
+			sourceTree = "<group>";
+		};
+		91D85DB61F4B524B00541F54 /* HistoricalQuizzesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91D85DB71F4B524B00541F54 /* HistoricalQuizzesUITests.swift */,
+				91D85DB91F4B524B00541F54 /* Info.plist */,
+			);
+			path = HistoricalQuizzesUITests;
+			sourceTree = "<group>";
+		};
+		91D85DCD1F4B905100541F54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91D85DCE1F4B905100541F54 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9189512E1F4C8DD400004189 /* HistoricalQuizzesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918951361F4C8DD400004189 /* Build configuration list for PBXNativeTarget "HistoricalQuizzesTests" */;
+			buildPhases = (
+				9189512B1F4C8DD400004189 /* Sources */,
+				9189512C1F4C8DD400004189 /* Frameworks */,
+				9189512D1F4C8DD400004189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				918951351F4C8DD400004189 /* PBXTargetDependency */,
+			);
+			name = HistoricalQuizzesTests;
+			productName = HistoricalQuizzesTests;
+			productReference = 9189512F1F4C8DD400004189 /* HistoricalQuizzesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91D85D901F4B524A00541F54 /* HistoricalQuizzes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D85DBC1F4B524B00541F54 /* Build configuration list for PBXNativeTarget "HistoricalQuizzes" */;
+			buildPhases = (
+				91D85D8D1F4B524A00541F54 /* Sources */,
+				91D85D8E1F4B524A00541F54 /* Frameworks */,
+				91D85D8F1F4B524A00541F54 /* Resources */,
+				91C93901207140F300E4FCF4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HistoricalQuizzes;
+			productName = HistoricalQuizzes;
+			productReference = 91D85D911F4B524A00541F54 /* HistoricalQuizzes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91D85DB21F4B524B00541F54 /* HistoricalQuizzesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D85DC21F4B524B00541F54 /* Build configuration list for PBXNativeTarget "HistoricalQuizzesUITests" */;
+			buildPhases = (
+				91D85DAF1F4B524B00541F54 /* Sources */,
+				91D85DB01F4B524B00541F54 /* Frameworks */,
+				91D85DB11F4B524B00541F54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D85DB51F4B524B00541F54 /* PBXTargetDependency */,
+			);
+			name = HistoricalQuizzesUITests;
+			productName = HistoricalQuizzesUITests;
+			productReference = 91D85DB31F4B524B00541F54 /* HistoricalQuizzesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91D85D891F4B524A00541F54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Doug Williams";
+				TargetAttributes = {
+					9189512E1F4C8DD400004189 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TPH847K7QD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91D85D901F4B524A00541F54;
+					};
+					91D85D901F4B524A00541F54 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TPH847K7QD;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					91D85DB21F4B524B00541F54 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TPH847K7QD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91D85D901F4B524A00541F54;
+					};
+				};
+			};
+			buildConfigurationList = 91D85D8C1F4B524A00541F54 /* Build configuration list for PBXProject "HistoricalQuizzes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91D85D881F4B524A00541F54;
+			productRefGroup = 91D85D921F4B524A00541F54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91D85D901F4B524A00541F54 /* HistoricalQuizzes */,
+				91D85DB21F4B524B00541F54 /* HistoricalQuizzesUITests */,
+				9189512E1F4C8DD400004189 /* HistoricalQuizzesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9189512D1F4C8DD400004189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D85D8F1F4B524A00541F54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D85DA21F4B524A00541F54 /* LaunchScreen.storyboard in Resources */,
+				9149A7EA20F81DDC0067CBBF /* ChangeRequestTVCell.xib in Resources */,
+				91D85D9F1F4B524A00541F54 /* Assets.xcassets in Resources */,
+				9149F43520C1ED5F00603256 /* HeaderCellTableViewCell.xib in Resources */,
+				91D85D9A1F4B524A00541F54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D85DB11F4B524B00541F54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91C93901207140F300E4FCF4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:\"\necho \"searching ${SRCROOT} for ${TAGS}\"\nfind \"${SRCROOT}\" \\( -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9189512B1F4C8DD400004189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9189513A1F4C8DF600004189 /* MapTabVCTest.swift in Sources */,
+				91C0B7831F6F0338005ABCBA /* CoreDataHandlerTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D85D8D1F4B524A00541F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913E99FA20F6BCA600F5C2E3 /* AuthorisedUserTBC.swift in Sources */,
+				913EEB9820F8E0C0006B8D04 /* QuizzesAdminListTVC.swift in Sources */,
+				911E4DD820CC72D70074AA01 /* EditQuizTVC.swift in Sources */,
+				913EEB9A20F8E0D8006B8D04 /* QuestionsAdminListTVC.swift in Sources */,
+				9149A7E620F8113D0067CBBF /* QuestionsChangeRequestsTVC.swift in Sources */,
+				913E4F3A1F752E9B00C8CC67 /* LoginVC.swift in Sources */,
+				91D85D9D1F4B524A00541F54 /* HistoricalQuizzes.xcdatamodeld in Sources */,
+				914AE1BB20C3158F00FFEC81 /* QuizResultsVC.swift in Sources */,
+				91549C8E1F6D632200993EDB /* CoreDataHandler.swift in Sources */,
+				91364D021F796E5F003E607F /* AddPointOfInterestTVC.swift in Sources */,
+				913E99FE20F6C17300F5C2E3 /* BasicUserTBC.swift in Sources */,
+				913E99FC20F6BD3400F5C2E3 /* AdministratorUserTBC.swift in Sources */,
+				91AF65541F4C9DA500CA9F93 /* MKPin.swift in Sources */,
+				913EEB9520F8E092006B8D04 /* PointsOfInterestAdminListTVC.swift in Sources */,
+				914AE1BD20C3199700FFEC81 /* ResultsCircle.swift in Sources */,
+				9149A7E920F81DDC0067CBBF /* ChangeRequestTVCell.swift in Sources */,
+				91A2FEA21F7DB8E000AF6818 /* QuizzesWithinPointOfInterestAreaListTVC.swift in Sources */,
+				9107C5C620B87A4C0089F346 /* RegisterTVC.swift in Sources */,
+				913EE0D520751D37000A6A2F /* AddQuizTVC.swift in Sources */,
+				917512C41F72E37E002F7061 /* PostDictionary.swift in Sources */,
+				913EE0D7207530D0000A6A2F /* AddQuestionTVC.swift in Sources */,
+				91364CFF1F796413003E607F /* QuestionsListTVC.swift in Sources */,
+				913E4F3C1F7582F000C8CC67 /* LeftIconTF.swift in Sources */,
+				91A9EA35205C03E200634BBF /* QuizTVC.swift in Sources */,
+				918367D620CFDC4B00281BC3 /* EditQuestionTVC.swift in Sources */,
+				9194018A208A46DF00374D0A /* ClassExtensions.swift in Sources */,
+				9149A7E420F8112E0067CBBF /* QuizzesChangeRequestsTVC.swift in Sources */,
+				91344CA3211CD2650039F5FB /* IntroductionPVC.swift in Sources */,
+				91D85D971F4B524A00541F54 /* MapTabVC.swift in Sources */,
+				913EEB9C20F91A6F006B8D04 /* AdministratorPanelTVC.swift in Sources */,
+				913EE0DA2075A5F1000A6A2F /* EditPointOfInterestTVC.swift in Sources */,
+				914697DA21011BC700F259FA /* UserTVCell.swift in Sources */,
+				9159E0F82124965F0074643E /* Introduction1VC.swift in Sources */,
+				913A29791F78067E0006A235 /* ProfileTVC.swift in Sources */,
+				9149F43420C1ED5F00603256 /* HeaderCellTableViewCell.swift in Sources */,
+				91D85DCC1F4B8B8000541F54 /* LocationManagerExtension.swift in Sources */,
+				91364CFD1F795AE0003E607F /* QuizzesListTVC.swift in Sources */,
+				91364CFB1F7943CA003E607F /* PointsOfInterestListTVC.swift in Sources */,
+				91AF65521F4C9D6A00CA9F93 /* MapViewExtension.swift in Sources */,
+				91541F4D1F54357D0046DF31 /* SwiftyJSON.swift in Sources */,
+				91541F4F1F5436650046DF31 /* DatabaseHandler.swift in Sources */,
+				9159E0FA212496730074643E /* Introduction5VC.swift in Sources */,
+				91D85D951F4B524A00541F54 /* AppDelegate.swift in Sources */,
+				9149A7E020F810E50067CBBF /* UsersTVC.swift in Sources */,
+				9149A7E220F811150067CBBF /* PointsOfInterestChangeRequestsTVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D85DAF1F4B524B00541F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D85DB81F4B524B00541F54 /* HistoricalQuizzesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		918951351F4C8DD400004189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D85D901F4B524A00541F54 /* HistoricalQuizzes */;
+			targetProxy = 918951341F4C8DD400004189 /* PBXContainerItemProxy */;
+		};
+		91D85DB51F4B524B00541F54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D85D901F4B524A00541F54 /* HistoricalQuizzes */;
+			targetProxy = 91D85DB41F4B524B00541F54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91D85D981F4B524A00541F54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91D85D991F4B524A00541F54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91D85DA01F4B524A00541F54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91D85DA11F4B524A00541F54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		918951371F4C8DD400004189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TPH847K7QD;
+				INFOPLIST_FILE = HistoricalQuizzesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlw.historical.quizzes.HistoricalQuizzesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HistoricalQuizzes.app/HistoricalQuizzes";
+			};
+			name = Debug;
+		};
+		918951381F4C8DD400004189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TPH847K7QD;
+				INFOPLIST_FILE = HistoricalQuizzesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlw.historical.quizzes.HistoricalQuizzesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HistoricalQuizzes.app/HistoricalQuizzes";
+			};
+			name = Release;
+		};
+		91D85DBA1F4B524B00541F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91D85DBB1F4B524B00541F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91D85DBD1F4B524B00541F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TPH847K7QD;
+				INFOPLIST_FILE = HistoricalQuizzes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlw.historical.quizzes.HistoricalQuizzes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		91D85DBE1F4B524B00541F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TPH847K7QD;
+				INFOPLIST_FILE = HistoricalQuizzes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlw.historical.quizzes.HistoricalQuizzes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		91D85DC31F4B524B00541F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TPH847K7QD;
+				INFOPLIST_FILE = HistoricalQuizzesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlw.historical.quizzes.HistoricalQuizzesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HistoricalQuizzes;
+			};
+			name = Debug;
+		};
+		91D85DC41F4B524B00541F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TPH847K7QD;
+				INFOPLIST_FILE = HistoricalQuizzesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlw.historical.quizzes.HistoricalQuizzesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HistoricalQuizzes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		918951361F4C8DD400004189 /* Build configuration list for PBXNativeTarget "HistoricalQuizzesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918951371F4C8DD400004189 /* Debug */,
+				918951381F4C8DD400004189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D85D8C1F4B524A00541F54 /* Build configuration list for PBXProject "HistoricalQuizzes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D85DBA1F4B524B00541F54 /* Debug */,
+				91D85DBB1F4B524B00541F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D85DBC1F4B524B00541F54 /* Build configuration list for PBXNativeTarget "HistoricalQuizzes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D85DBD1F4B524B00541F54 /* Debug */,
+				91D85DBE1F4B524B00541F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D85DC21F4B524B00541F54 /* Build configuration list for PBXNativeTarget "HistoricalQuizzesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D85DC31F4B524B00541F54 /* Debug */,
+				91D85DC41F4B524B00541F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		91D85D9B1F4B524A00541F54 /* HistoricalQuizzes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91D85D9C1F4B524A00541F54 /* HistoricalQuizzes.xcdatamodel */,
+			);
+			currentVersion = 91D85D9C1F4B524A00541F54 /* HistoricalQuizzes.xcdatamodel */;
+			name = HistoricalQuizzes.xcdatamodeld;
+			path = HistoricalQuizzes/HistoricalQuizzes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 91D85D891F4B524A00541F54 /* Project object */;
+}

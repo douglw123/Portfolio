@@ -1,0 +1,197 @@
+quiz local max was 4quiz database max was 3
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 2
+quiz local was less than quiz database 
+quiz results array size is 2
+quiz local was less than quiz database 
+quiz results array size is 2
+quiz local was less than quiz database 
+quiz results array size is 2
+quiz local was less than quiz database 
+quiz results array size is 2
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 8
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 2
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 4
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 4
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 2
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 5
+quiz local was less than quiz database 
+quiz results array size is 4
+quiz local was less than quiz database 
+quiz results array size is 4
+quiz local was less than quiz database 
+quiz results array size is 4
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 3
+quiz local was less than quiz database 
+quiz results array size is 1
+quiz local was less than quiz database 
+quiz results array size is 3

@@ -1,0 +1,203 @@
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+Last connection time of device -> time: never, size of update arrays -> point of interest size: 0, Quizzes size: 0, Questions size: 0
+sync completed at 2018-03-21 15:45:01
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 3 database max was -> databaseMax: 3
+quiz local max was -> localMax: 3 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 3 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 3 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+Last connection time of device -> time: 2018-03-18 18:21:59, size of update arrays -> point of interest size: 0, Quizzes size: 0, Questions size: 0
+sync completed at 2018-03-21 20:22:02
+------------------------------------------------------------
+type was set -> type:user
+password and username both set -> username: testUserName1password: password
+json_encode of user data returned
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 3 database max was -> databaseMax: 3
+quiz local max was -> localMax: 3 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 3 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 3 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+Last connection time of device -> time: 2018-03-21 20:22:02, size of update arrays -> point of interest size: 0, Quizzes size: 0, Questions size: 0
+sync completed at 2018-03-21 20:23:04
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 3 database max was -> databaseMax: 3
+quiz local max was -> localMax: 3 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 3 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 3 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+Last connection time of device -> time: 2018-03-21 20:23:04, size of update arrays -> point of interest size: 0, Quizzes size: 0, Questions size: 0
+sync completed at 2018-03-21 20:23:26
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 3 database max was -> databaseMax: 3
+quiz local max was -> localMax: 3 database max was -> databaseMax: 4
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 3 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 3 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+Last connection time of device -> time: 2018-03-21 20:23:26, size of update arrays -> point of interest size: 0, Quizzes size: 0, Questions size: 0
+sync completed at 2018-03-21 20:30:51
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 3 database max was -> databaseMax: 3
+quiz local max was -> localMax: 3 database max was -> databaseMax: 4
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 3 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 3 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+Last connection time of device -> time: 2018-03-21 20:30:51, size of update arrays -> point of interest size: 0, Quizzes size: 0, Questions size: 0
+sync completed at 2018-03-21 20:31:10
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 3 database max was -> databaseMax: 3
+quiz local max was -> localMax: 3 database max was -> databaseMax: 4
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 3 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 3 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+Last connection time of device -> time: 2018-03-21 20:31:10, size of update arrays -> point of interest size: 0, Quizzes size: 0, Questions size: 0
+sync completed at 2018-03-21 20:31:12
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 3 database max was -> databaseMax: 3
+quiz local max was -> localMax: 3 database max was -> databaseMax: 4
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 3 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 3 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+Last connection time of device -> time: 2018-03-21 20:31:12, size of update arrays -> point of interest size: 0, Quizzes size: 0, Questions size: 0
+sync completed at 2018-03-21 20:35:35
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 3 database max was -> databaseMax: 3
+quiz local max was -> localMax: 3 database max was -> databaseMax: 4
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 3 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 3 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+Last connection time of device -> time: 2018-03-21 20:35:35, size of update arrays -> point of interest size: 0, Quizzes size: 0, Questions size: 0
+sync completed at 2018-03-21 20:40:16
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 3 database max was -> databaseMax: 3
+quiz local max was -> localMax: 3 database max was -> databaseMax: 4
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 3 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 3 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+Last connection time of device -> time: 2018-03-21 20:40:16, size of update arrays -> point of interest size: 0, Quizzes size: 0, Questions size: 0
+sync completed at 2018-03-21 20:40:24
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 3 database max was -> databaseMax: 3
+quiz local max was -> localMax: 3 database max was -> databaseMax: 4
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 3 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 1 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 3 database max was -> databaseMax: 0
+Database connection failed

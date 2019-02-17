@@ -1,0 +1,253 @@
+s | s | s
+Array
+(
+    [lastName] => take the shot
+    [email] => bang
+    [firstName] => kill him
+    [username] => he is
+    [password] => dead
+)
+
+t | t | t
+b | b | b
+k | k | k
+h | h | h
+d | d | d
+Array
+(
+    [lastName] => williams
+    [email] => doug@snid.com
+    [firstName] => Doug
+    [username] => douglw123
+    [password] => password1
+)
+
+w | w | w
+5
+d | d | d
+6
+D | D | D
+7
+d | d | d
+p | p | p
+9
+Array
+(
+    [lastName] => Williams
+    [email] => doug@moose.com
+    [firstName] => Doug
+    [username] => dlw
+    [password] => password1
+)
+
+Doug | Williams | dlw
+5
+Array
+(
+    [lastName] => Williams
+    [email] => Doug@moose.com
+    [firstName] => Doug
+    [username] => dlw
+    [password] => password1
+)
+
+Doug | Williams | dlw
+5
+Array
+(
+    [lastName] => Williams
+    [email] => doug@m.com
+    [firstName] => Doug
+    [username] => dlw
+    [password] => password1
+)
+
+Doug | Williams | dlw
+5
+Array
+(
+    [lastName] => Williams
+    [email] => Doug@m.com
+    [firstName] => Doug
+    [username] => dlw
+    [password] => password1
+)
+
+Doug | Williams | dlw
+5
+Array
+(
+    [lastName] => Williams
+    [email] => doug@gmail.com
+    [firstName] => Doug
+    [username] => dlw
+    [password] => password1
+)
+
+Doug | Williams | dlw
+5
+Array
+(
+    [lastName] => Jenkins
+    [email] => norman@j.com
+    [firstName] => Norman
+    [username] => norm1
+    [password] => password1
+)
+
+Norman | Jenkins | norm1
+6
+Array
+(
+    [lastName] => will
+    [email] => d@g.com
+    [firstName] => doug
+    [username] => dlw
+    [password] => password1
+)
+
+doug | will | dlw
+Array
+(
+    [lastName] => wil
+    [email] => d"2
+    [firstName] => doug
+    [username] => dlw
+    [password] => pass
+)
+
+doug | wil | dlw
+Array
+(
+    [lastName] => we
+    [email] => s
+    [firstName] => dlw
+    [username] => dlw
+    [password] => pass
+)
+
+dlw | we | dlw
+Array
+(
+    [lastName] => will
+    [email] => dow
+    [firstName] => doug
+    [username] => dlw
+    [password] => pass
+)
+
+doug | will | dlw
+Array
+(
+    [lastName] => Aniston
+    [email] => b@q.com
+    [firstName] => bob
+    [username] => dlw
+    [password] => password1
+)
+
+bob | Aniston | dlw
+Array
+(
+    [lastName] => Aniston
+    [email] => b@q.com
+    [firstName] => bob
+    [username] => thiswillbeover20charaterswontit
+    [password] => password1
+)
+
+bob | Aniston | thiswillbeover20charaterswontit
+Array
+(
+    [lastName] => Aniston
+    [email] => b@q.com
+    [firstName] => bob
+    [username] => workingSystem
+    [password] => password1
+)
+
+bob | Aniston | workingSystem
+12
+Array
+(
+    [lastName] => drhdh
+    [email] => sb
+    [firstName] => the
+    [username] => dlw
+    [password] => tw3wt
+)
+
+the | drhdh | dlw
+Array
+(
+    [lastName] => drhdh
+    [email] => sb
+    [firstName] => the
+    [username] => dlwsegewgewgerhehehergerheh
+    [password] => tw3wt
+)
+
+the | drhdh | dlwsegewgewgerhehehergerheh
+Array
+(
+    [lastName] => williams
+    [email] => dow16@d.com
+    [firstName] => Doug
+    [username] => TestUserName1
+    [password] => password
+)
+
+Doug | williams | TestUserName1
+5
+Array
+(
+    [lastName] => we
+    [email] => ww
+    [firstName] => doug
+    [username] => TestUserName1
+    [password] => password
+)
+
+doug | we | TestUserName1
+Array
+(
+    [lastName] => we
+    [email] => ww
+    [firstName] => doug
+    [username] => TestUserName1ylvutytouyucitcouygutcougiytoutfi
+    [password] => password
+)
+
+doug | we | TestUserName1ylvutytouyucitcouygutcougiytoutfi
+Array
+(
+    [lastName] => we
+    [email] => ww
+    [firstName] => doug
+    [username] => TestUserName1ylvutytouyucitcouygutcougiytoutfi
+    [password] => password
+)
+
+doug | we | TestUserName1ylvutytouyucitcouygutcougiytoutfi
+Array
+(
+    [lastName] => Smith
+    [email] => John@gmail.com
+    [firstName] => John
+    [isBanned] => false
+    [username] => testUserName1
+    [password] => password
+)
+
+John | Smith | testUserName1
+Array
+(
+    [lastName] => Smith
+    [email] => JohnLorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravidamauris,fringillavehiculalacinianon@gmail.com
+    [firstName] => John
+    [isBanned] => false
+    [username] => testUserName1
+    [password] => password
+)
+
+John | Smith | testUserName1

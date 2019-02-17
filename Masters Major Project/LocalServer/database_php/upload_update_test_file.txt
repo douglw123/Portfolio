@@ -1,0 +1,130 @@
+Library updated | 51.2 | -4.1002
+2
+Park life | 53.2 | -4.055
+1
+Park life | 53.2 | -4.055
+1
+Park 1 | 53.2 | -4.055
+1
+Park 2 | 53.2 | -4.055
+1
+Park 3 | 53.2 | -4.055
+1
+Park life | 53.2 | -4.055
+1
+Park | 53.2 | -4.055
+1
+Library renamed | 51.2 | -4.1002
+2
+Library renamed | 53.3527687032255 | -6.33673932286403
+2
+Library renamed | 57.165962 | -2.102492
+2
+The Park Quiz renamed | 1 | The Library Quiz renamed | 2 | The Library Quiz renamed 2 | 2 | The Library Quiz renamed 3 | 2 | The Library Quiz renamed 4 | 2 | 
+The Library Quiz renamed 5 | 2 | [
+  {
+    "latitude" : "57.165962",
+    "pointOfInterestID" : "2",
+    "title" : "Library renamed",
+    "longitude" : "-2.102492",
+    "userID" : "1"
+  }
+]
+The Library Quiz move to park | 2 | [
+  {
+    "latitude" : "53.2",
+    "pointOfInterestID" : "1",
+    "title" : "Park",
+    "longitude" : "-4.055",
+    "userID" : "1"
+  }
+]
+The Library Quiz now all points | 2 | [
+  {
+    "latitude" : "52.415577",
+    "pointOfInterestID" : "3",
+    "title" : "Aberystwyth University",
+    "longitude" : "-4.06426",
+    "userID" : "2"
+  },
+  {
+    "latitude" : "53.325189",
+    "pointOfInterestID" : "4",
+    "title" : "new point",
+    "longitude" : "-6.352137",
+    "userID" : "1"
+  },
+  {
+    "latitude" : "57.165962",
+    "pointOfInterestID" : "2",
+    "title" : "Library renamed",
+    "longitude" : "-2.102492",
+    "userID" : "1"
+  },
+  {
+    "latitude" : "53.2",
+    "pointOfInterestID" : "1",
+    "title" : "Park",
+    "longitude" : "-4.055",
+    "userID" : "1"
+  }
+]
+what are book for | reading |  | 4
+what are book for | reading |  | 4
+what are books for? | reading |  | 4
+Who laid the foundation stone of the National Library of Wales | King George V and Queen Mary |  | 5
+Who laid the foundation stone of the National Library of Wales | King George V and Queen Mary | 2 | 5
+Martha and Clark rename 2 | 5 | 15
+Who laid the foundation stone of the National Library of Wales | King George V and Queen Mary | 2 | 5
+Dolores and Teddy | 5 | 15
+Who laid the foundation stone of the National Library of Wales | King George V and Queen Mary | 2 | 5
+Martha and Clark rename | 5 | 15
+King Edward VII and Queen Alexandra rename | 5 | 14
+Dolores and Teddy rename | 5 | 13
+Martha and Clark | 5 | 15
+King Edward VII and Queen Alexandra | 5 | 14
+Dolores and Teddy | 5 | 13
+test question | test answer | 2 | 7
+test Segue | 51.186193 | -0.193231 | 4
+test edit point | 54.593344 | -5.93641 | 5
+test edit quiz | 5 | [
+  {
+    "latitude" : "51.186193",
+    "pointOfInterestID" : "4",
+    "title" : "test Segue",
+    "longitude" : "-0.193231",
+    "userID" : "1"
+  }
+]
+test edit question | answer 2 | 4 | 9
+The Library Quiz | 2 | [
+  {
+    "latitude" : "52.415577",
+    "pointOfInterestID" : "3",
+    "title" : "Aberystwyth University",
+    "longitude" : "-4.06426",
+    "userID" : "2"
+  }
+]
+The National Library of wales quiz | 2 | [
+  {
+    "latitude" : "51.2",
+    "pointOfInterestID" : "2",
+    "title" : "Library",
+    "longitude" : "-4.1002",
+    "userID" : "1"
+  },
+  {
+    "latitude" : "53.2",
+    "pointOfInterestID" : "1",
+    "title" : "Park",
+    "longitude" : "-4.055",
+    "userID" : "1"
+  }
+]
+Where is the National Library of Wales located? | Aberystwyth  | 2 | 8
+Newport | 8 | 23
+Where is the National Library of Wales located? | Aberystwyth | 2 | 8
+Where is the National Library of Wales located | Aberystwyth | 2 | 8
+Tregarton | 8 | 23
+Library renamed | 51.2 | -4.1002 | 2

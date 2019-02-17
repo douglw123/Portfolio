@@ -1,0 +1,483 @@
+username and password post data were not set
+type post data was not set
+------------------------------------------------------------
+type post data was not set
+type post data was not set
+type post data was not set
+type post data was not set
+type post data was not set
+type post data was not set
+point of interest local max was -> localMax: 0 database max was -> databaseMax: 3
+------------------------------------------------------------
+type post data was not set
+type post data was not set
+type post data was not set
+type post data was not set
+type post data was not set
+type post data was not set
+type post data was not set
+type post data was not set
+type post data was not set
+Database connection failed
+type post data was not set
+Database connection failed
+type post data was not set
+Database connection failed
+type post data was not set
+Database connection failed
+type post data was not set
+Database connection failed
+type post data was not set
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+type post data was not set
+------------------------------------------------------------
+point of interest local max was -> localMax: 0 database max was -> databaseMax: 3
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+Database connection failed
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+ Last connection time -> time: 1970-01-01 1:00:00 size of update arrays -> point of interest size: 0 Quizzes size: 0 Questions size: 0
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+ Last connection time -> time:  size of update arrays -> point of interest size: 0 Quizzes size: 0 Questions size: 0
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+ Last connection time -> time: 1970-01-01 1:00:00 size of update arrays -> point of interest size: 0 Quizzes size: 0 Questions size: 0
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+ Last connection time -> time: 1970-01-01 1:00:00 size of update arrays -> point of interest size: 0 Quizzes size: 0 Questions size: 0
+------------------------------------------------------------
+type was set -> type:sync
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+ Last connection time -> time: 1970-01-01 1:00:00 size of update arrays -> point of interest size: 0 Quizzes size: 0 Questions size: 0
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+ Last connection time -> time: 1970-01-01 1:00:00 size of update arrays -> point of interest size: 0 Quizzes size: 0 Questions size: 0
+------------------------------------------------------------
+type was set -> type:sync
+------------------------------------------------------------
+type was set -> type:sync
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+ Last connection time -> time: 1970-01-01 1:00:00 size of update arrays -> point of interest size: 0 Quizzes size: 0 Questions size: 0
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+ Last connection time -> time: 1970-01-01 1:00:00 size of update arrays -> point of interest size: 0 Quizzes size: 0 Questions size: 0
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+Last connection time of device -> time: 1970-01-01 1:00:00 size of update arrays -> point of interest size: 0 Quizzes size: 0 Questions size: 0
+sync completed at 2018-03-21 15:31:47
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+Last connection time of device -> time: never size of update arrays -> point of interest size: 0 Quizzes size: 0 Questions size: 0
+sync completed at 2018-03-21 15:37:03
+------------------------------------------------------------
+type was set -> type:sync
+point of interest local max was -> localMax: 5 database max was -> databaseMax: 3
+quiz local max was -> localMax: 5 database max was -> databaseMax: 3
+question local max was -> localMax: 5 database max was -> databaseMax: 5
+wrong answer local max was -> localMax: 0 database max was -> databaseMax: 3
+point of interest Tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+quiz tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+question tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+wrong answer tombstone local max was -> localMax: 0 database max was -> databaseMax: 0
+size of point of interest array -> size: 0
+size of quiz array -> size: 0
+size of point of interest quiz link array -> size: 0
+size of question array -> size: 0
+size of point of interest tombstone array -> size: 0
+size of quiz tombstone array -> size: 0
+size of question tombstone array -> size: 0
+Last connection time of device -> time: never, size of update arrays -> point of interest size: 0, Quizzes size: 0, Questions size: 0
+sync completed at 2018-03-21 15:38:00
+------------------------------------------------------------

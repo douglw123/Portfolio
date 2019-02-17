@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ChangeRequest" representedClassName="ChangeRequest" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="dateCreated" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="deleteOnNextSync" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="PointOfInterest" representedClassName="PointOfInterest" syncable="YES" codeGenerationType="class">
+        <attribute name="dateCreated" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="deleteOnNextSync" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="pointOfInterestID" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTimeStamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="changeRequests" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PointOfInterestChangeRequest" inverseName="pointOfInterest" inverseEntity="PointOfInterestChangeRequest" syncable="YES"/>
+        <relationship name="quizzes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quiz" inverseName="pointsOfInterest" inverseEntity="Quiz" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="pointsOfInterest" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="PointOfInterestChangeRequest" representedClassName="PointOfInterestChangeRequest" parentEntity="ChangeRequest" syncable="YES" codeGenerationType="class">
+        <attribute name="pointOfInterestChangeRequestID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="pointOfInterestID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="pointOfInterest" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PointOfInterest" inverseName="changeRequests" inverseEntity="PointOfInterest" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="pointsOfInterestChangeRequests" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Question" representedClassName="Question" syncable="YES" codeGenerationType="class">
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateCreated" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="deleteOnNextSync" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questionID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="updateTimeStamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="changeRequests" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="QuestionChangeRequest" inverseName="question" inverseEntity="QuestionChangeRequest" syncable="YES"/>
+        <relationship name="quiz" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Quiz" inverseName="questions" inverseEntity="Quiz" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="questions" inverseEntity="User" syncable="YES"/>
+        <relationship name="wrongAnswers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="WrongAnswer" inverseName="question" inverseEntity="WrongAnswer" syncable="YES"/>
+    </entity>
+    <entity name="QuestionChangeRequest" representedClassName="QuestionChangeRequest" parentEntity="ChangeRequest" syncable="YES" codeGenerationType="class">
+        <attribute name="questionChangeRequestID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="questionID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="question" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Question" inverseName="changeRequests" inverseEntity="Question" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="questionsChangeRequests" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Quiz" representedClassName="Quiz" syncable="YES" codeGenerationType="class">
+        <attribute name="dateCreated" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="deleteOnNextSync" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quizID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="updateTimeStamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="changeRequests" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="QuizChangeRequest" inverseName="quiz" inverseEntity="QuizChangeRequest" syncable="YES"/>
+        <relationship name="pointsOfInterest" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PointOfInterest" inverseName="quizzes" inverseEntity="PointOfInterest" syncable="YES"/>
+        <relationship name="questions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Question" inverseName="quiz" inverseEntity="Question" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="quizzes" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="QuizChangeRequest" representedClassName="QuizChangeRequest" parentEntity="ChangeRequest" syncable="YES" codeGenerationType="class">
+        <attribute name="quizChangeRequestID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="quizID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="quiz" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Quiz" inverseName="changeRequests" inverseEntity="Quiz" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="quizzesChangeRequests" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isAdministrator" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isBanned" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isLoggedIn" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pointsOfInterest" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PointOfInterest" inverseName="user" inverseEntity="PointOfInterest" syncable="YES"/>
+        <relationship name="pointsOfInterestChangeRequests" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PointOfInterestChangeRequest" inverseName="user" inverseEntity="PointOfInterestChangeRequest" syncable="YES"/>
+        <relationship name="questions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Question" inverseName="user" inverseEntity="Question" syncable="YES"/>
+        <relationship name="questionsChangeRequests" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="QuestionChangeRequest" inverseName="user" inverseEntity="QuestionChangeRequest" syncable="YES"/>
+        <relationship name="quizzes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quiz" inverseName="user" inverseEntity="Quiz" syncable="YES"/>
+        <relationship name="quizzesChangeRequests" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="QuizChangeRequest" inverseName="user" inverseEntity="QuizChangeRequest" syncable="YES"/>
+        <relationship name="wrongAnswers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="WrongAnswer" inverseName="user" inverseEntity="WrongAnswer" syncable="YES"/>
+    </entity>
+    <entity name="WrongAnswer" representedClassName="WrongAnswer" syncable="YES" codeGenerationType="class">
+        <attribute name="dateCreated" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="updateTimeStamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="wrongAnswer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wrongAnswerID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="question" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Question" inverseName="wrongAnswers" inverseEntity="Question" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="wrongAnswers" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ChangeRequest" positionX="-36" positionY="135" width="128" height="105"/>
+        <element name="PointOfInterest" positionX="-63" positionY="-18" width="128" height="210"/>
+        <element name="PointOfInterestChangeRequest" positionX="-36" positionY="117" width="128" height="105"/>
+        <element name="Question" positionX="-18" positionY="36" width="128" height="210"/>
+        <element name="QuestionChangeRequest" positionX="-27" positionY="135" width="128" height="105"/>
+        <element name="Quiz" positionX="-36" positionY="27" width="128" height="195"/>
+        <element name="QuizChangeRequest" positionX="-36" positionY="117" width="128" height="105"/>
+        <element name="User" positionX="-27" positionY="63" width="128" height="285"/>
+        <element name="WrongAnswer" positionX="-36" positionY="45" width="128" height="150"/>
+    </elements>
+</model>

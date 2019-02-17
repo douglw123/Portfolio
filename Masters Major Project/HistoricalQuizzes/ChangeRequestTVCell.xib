@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ChangeRequestCell" id="KGk-i7-Jjw" customClass="ChangeRequestTVCell" customModule="HistoricalQuizzes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="119.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3s-Wa-DDY">
+                        <rect key="frame" x="15" y="0.0" width="290" height="120"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZu-9O-I55">
+                        <rect key="frame" x="8" y="89" width="304" height="30"/>
+                        <color key="backgroundColor" red="0.57647058819999997" green="0.81568627449999997" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" title="Completed">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="buttonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Grv-qI-v4p"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.33333333329999998" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="H3s-Wa-DDY" firstAttribute="trailing" secondItem="jZu-9O-I55" secondAttribute="trailing" constant="-7" id="GNH-pf-NvJ"/>
+                    <constraint firstItem="jZu-9O-I55" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Wcu-9o-xfX"/>
+                    <constraint firstItem="H3s-Wa-DDY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Y2N-ja-zxk"/>
+                    <constraint firstItem="H3s-Wa-DDY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="bBH-ez-HPu"/>
+                    <constraint firstItem="H3s-Wa-DDY" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="gG8-uc-qfr"/>
+                    <constraint firstItem="H3s-Wa-DDY" firstAttribute="leading" secondItem="jZu-9O-I55" secondAttribute="leading" constant="7" id="msY-pu-UbP"/>
+                    <constraint firstItem="jZu-9O-I55" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="81" id="xV8-md-HlC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="completedButton" destination="jZu-9O-I55" id="gaC-1D-BKe"/>
+                <outlet property="messageLabel" destination="H3s-Wa-DDY" id="Nic-5U-GZX"/>
+            </connections>
+            <point key="canvasLocation" x="35" y="90"/>
+        </tableViewCell>
+    </objects>
+</document>

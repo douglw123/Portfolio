@@ -1,0 +1,9172 @@
+insert of Parkfailed with error SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+insert of Parkfailed with error SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+insert of Park failed with error SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+insert of Park with code 23505 duplicate name 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) failed with error SQLSTATE[22001]: String data, right truncated: 7 ERROR:  value too long for type character varying(255) and the code was 22001
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) failed with error SQLSTATE[22001]: String data, right truncated: 7 ERROR:  value too long for type character varying(255) and the code was 22001
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+database_violations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => title:Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+insert of Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long) with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => Park
+            [reason] => duplicate
+        )
+
+    [1] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => Lorem ipsum dolor sit amet, nonummy ligula volutpat hac integer nonummy. Suspendisse ultricies, congue etiam tellus, erat libero, nulla eleifend, mauris pellentesque. Suspendisse integer praesent vel, integer gravida mauris, fringilla vehicula lacinia non (too long)
+            [reason] => exceeded varchar limit
+        )
+
+)
+
+ 
+insert of Park with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(Park) already exists.
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => Park
+            [reason] => duplicate
+        )
+
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of just a quiz failed with error SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type timestamp: "" and the code was 22007
+info for error is Array
+(
+    [0] => 22007
+    [1] => 7
+    [2] => ERROR:  invalid input syntax for type timestamp: ""
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => Quizzes
+            [action] => insert
+            [unique_attribute] => just a quiz
+            [reason] => unknown
+        )
+
+)
+
+ 
+insert of just a quiz failed with error SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type timestamp: "" and the code was 22007
+info for error is Array
+(
+    [0] => 22007
+    [1] => 7
+    [2] => ERROR:  invalid input syntax for type timestamp: ""
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => Quizzes
+            [action] => insert
+            [unique_attribute] => just a quiz
+            [reason] => unknown
+        )
+
+)
+
+ 
+insert of just a quiz failed with error SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type timestamp: "" and the code was 22007
+info for error is Array
+(
+    [0] => 22007
+    [1] => 7
+    [2] => ERROR:  invalid input syntax for type timestamp: ""
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => Quizzes
+            [action] => insert
+            [unique_attribute] => just a quiz
+            [reason] => unknown
+        )
+
+)
+
+ 
+insert of just a quiz failed with error SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type timestamp: "" and the code was 22007
+info for error is Array
+(
+    [0] => 22007
+    [1] => 7
+    [2] => ERROR:  invalid input syntax for type timestamp: ""
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => Quizzes
+            [action] => insert
+            [unique_attribute] => just a quiz
+            [reason] => unknown
+        )
+
+)
+
+ 
+insert of just a quiz failed with error SQLSTATE[22008]: Datetime field overflow: 7 ERROR:  date/time field value out of range: "26-04-2018 15:37:00.992"
+HINT:  Perhaps you need a different "datestyle" setting. and the code was 22008
+info for error is Array
+(
+    [0] => 22008
+    [1] => 7
+    [2] => ERROR:  date/time field value out of range: "26-04-2018 15:37:00.992"
+HINT:  Perhaps you need a different "datestyle" setting.
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => Quizzes
+            [action] => insert
+            [unique_attribute] => just a quiz
+            [reason] => unknown
+        )
+
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of yes failed with error SQLSTATE[42703]: Undefined column: 7 ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^ and the code was 42703
+info for error is Array
+(
+    [0] => 
+    [1] => 7
+    [2] => ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^
+)
+
+ 
+insert of no failed with error SQLSTATE[42703]: Undefined column: 7 ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^ and the code was 42703
+info for error is Array
+(
+    [0] => 
+    [1] => 7
+    [2] => ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^
+)
+
+ 
+insert of maybe failed with error SQLSTATE[42703]: Undefined column: 7 ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^ and the code was 42703
+info for error is Array
+(
+    [0] => 
+    [1] => 7
+    [2] => ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => yes
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [1] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => no
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [2] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => maybe
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+)
+
+ 
+insert of yes failed with error SQLSTATE[42703]: Undefined column: 7 ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^ and the code was 42703
+info for error is Array
+(
+    [0] => 
+    [1] => 7
+    [2] => ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^
+)
+
+ 
+insert of no failed with error SQLSTATE[42703]: Undefined column: 7 ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^ and the code was 42703
+info for error is Array
+(
+    [0] => 
+    [1] => 7
+    [2] => ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^
+)
+
+ 
+insert of maybe failed with error SQLSTATE[42703]: Undefined column: 7 ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^ and the code was 42703
+info for error is Array
+(
+    [0] => 
+    [1] => 7
+    [2] => ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => yes
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [1] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => no
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [2] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => maybe
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+)
+
+ 
+insert of yes failed with error SQLSTATE[42703]: Undefined column: 7 ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^ and the code was 42703
+info for error is Array
+(
+    [0] => 
+    [1] => 7
+    [2] => ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^
+)
+
+ 
+insert of no failed with error SQLSTATE[42703]: Undefined column: 7 ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^ and the code was 42703
+info for error is Array
+(
+    [0] => 
+    [1] => 7
+    [2] => ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^
+)
+
+ 
+insert of maybe failed with error SQLSTATE[42703]: Undefined column: 7 ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^ and the code was 42703
+info for error is Array
+(
+    [0] => 
+    [1] => 7
+    [2] => ERROR:  column "wronganswer" does not exist
+LINE 1: SELECT questionid FROM Questions where wronganswer = $1 and ...
+                                               ^
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => yes
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [1] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => no
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [2] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => maybe
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+)
+
+ 
+insert of yes failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+insert of no failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+insert of maybe failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => yes
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [1] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => no
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [2] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => maybe
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+)
+
+ 
+insert of yes failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+insert of no failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+insert of maybe failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => yes
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [1] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => no
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [2] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => maybe
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+)
+
+ 
+insert of yes failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+insert of no failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+insert of maybe failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => yes
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [1] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => no
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [2] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => maybe
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+)
+
+ 
+insert of yes failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+insert of no failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+insert of maybe failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => yes
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [1] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => no
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [2] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => maybe
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of sigh failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+insert of it'd failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => sigh
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [1] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => it'd
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of wrong answer 3 failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+insert of wrong answer 2 failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => wrong answer 3
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [1] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => wrong answer 2
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of d with code 23505 duplicate username 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "users_username_key"
+DETAIL:  Key (username)=(d) already exists.
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of dlw with code 23505 duplicate username 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "users_username_key"
+DETAIL:  Key (username)=(dlw) already exists.
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of dlw with code 23505 duplicate username 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "users_username_key"
+DETAIL:  Key (username)=(dlw) already exists.
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of dlw with code 23505 duplicate username 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "users_username_key"
+DETAIL:  Key (username)=(dlw) already exists.
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of dlw with code 23505 duplicate username 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "users_username_key"
+DETAIL:  Key (username)=(dlw) already exists.
+)
+
+ 
+insert of dlw with code 23505 duplicate username 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "users_username_key"
+DETAIL:  Key (username)=(dlw) already exists.
+)
+
+ 
+insert of thiswillbeover20charaterswontit with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(20)
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of dlw with code 23505 duplicate username 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "users_username_key"
+DETAIL:  Key (username)=(dlw) already exists.
+)
+
+ 
+insert of dlwsegewgewgerhehehergerheh with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(20)
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of one? failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "questions" violates foreign key constraint "questions_quizid_fkey"
+DETAIL:  Key (quizid)=(0) is not present in table "quizzes". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "questions" violates foreign key constraint "questions_quizid_fkey"
+DETAIL:  Key (quizid)=(0) is not present in table "quizzes".
+)
+
+ 
+insert of less failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+insert of more failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+insert of 10 failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => Questions
+            [action] => insert
+            [unique_attribute] => one?
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [1] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => less
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [2] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => more
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [3] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => 10
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of TestUserName1 with code 23505 duplicate username 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "users_username_key"
+DETAIL:  Key (username)=(TestUserName1) already exists.
+)
+
+ 
+insert of TestUserName1ylvutytouyucitcouygutcougiytoutfi with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(20)
+)
+
+ 
+insert of TestUserName1ylvutytouyucitcouygutcougiytoutfi with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(20)
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of Is the monster real?  failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "questions" violates foreign key constraint "questions_quizid_fkey"
+DETAIL:  Key (quizid)=(0) is not present in table "quizzes". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "questions" violates foreign key constraint "questions_quizid_fkey"
+DETAIL:  Key (quizid)=(0) is not present in table "quizzes".
+)
+
+ 
+insert of yes failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+insert of marshal failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+insert of I've seen him man! failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "wronganswers" violates foreign key constraint "wronganswers_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => Questions
+            [action] => insert
+            [unique_attribute] => Is the monster real? 
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [1] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => yes
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [2] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => marshal
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+    [3] => Array
+        (
+            [table] => WrongAnswers
+            [action] => insert
+            [unique_attribute] => I've seen him man!
+            [unique_attribute_date_created] => 
+            [reason] => unknown
+        )
+
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of No quiz point of interest with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(No quiz point of interest) already exists.
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => No quiz point of interest
+            [reason] => duplicate
+        )
+
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of test UI with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_title_key"
+DETAIL:  Key (title)=(test UI) already exists.
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => test UI
+            [reason] => duplicate
+        )
+
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of  failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "pointsofinterestchangerequests" violates foreign key constraint "pointsofinterestchangerequests_pointofinterestid_fkey"
+DETAIL:  Key (pointofinterestid)=(0) is not present in table "pointsofinterest". and the code was 23503
+info for error is Array
+(
+    [0] => 
+    [1] => 7
+    [2] => ERROR:  insert or update on table "pointsofinterestchangerequests" violates foreign key constraint "pointsofinterestchangerequests_pointofinterestid_fkey"
+DETAIL:  Key (pointofinterestid)=(0) is not present in table "pointsofinterest".
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterestChangeRequests
+            [action] => insert
+            [unique_attribute] => 
+            [reason] => unknown
+        )
+
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of question test failed with error SQLSTATE[42703]: Undefined column: 7 ERROR:  column "datecreatedondevicetimestamp" of relation "questionschangerequests" does not exist
+LINE 1: ...NTO QuestionsChangeRequests (questionid, message, datecreate...
+                                                             ^ and the code was 42703
+info for error is Array
+(
+    [0] => 
+    [1] => 7
+    [2] => ERROR:  column "datecreatedondevicetimestamp" of relation "questionschangerequests" does not exist
+LINE 1: ...NTO QuestionsChangeRequests (questionid, message, datecreate...
+                                                             ^
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => QuestionsChangeRequests
+            [action] => insert
+            [unique_attribute] => question test
+            [reason] => unknown
+        )
+
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of point with quizzes with code 23505 duplicate name 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "pointsofinterest_longitude_key"
+DETAIL:  Key (longitude)=(-2.364245) already exists.
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => PointsOfInterest
+            [action] => insert
+            [unique_attribute] => point with quizzes
+            [reason] => duplicate
+        )
+
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of 4 with code 23505 duplicate 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "questionstombstone_pkey"
+DETAIL:  Key (questiontombstoneid)=(4) already exists.
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => QuestionsTombstone
+            [action] => delete
+            [unique_attribute] => 4
+            [reason] => duplicate
+        )
+
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of what are book for failed with error SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "quizid" violates not-null constraint
+DETAIL:  Failing row contains (4, null, 1, what are book for, reading, f, null, 2018-06-25 20:11:44.077). and the code was 23502
+info for error is Array
+(
+    [0] => 23502
+    [1] => 7
+    [2] => ERROR:  null value in column "quizid" violates not-null constraint
+DETAIL:  Failing row contains (4, null, 1, what are book for, reading, f, null, 2018-06-25 20:11:44.077).
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => Questions
+            [action] => update
+            [unique_attribute] => what are book for
+            [reason] => unknown
+        )
+
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of 0 failed with error SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "questionstombstone" violates foreign key constraint "questionstombstone_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions". and the code was 23503
+info for error is Array
+(
+    [0] => 23503
+    [1] => 7
+    [2] => ERROR:  insert or update on table "questionstombstone" violates foreign key constraint "questionstombstone_questionid_fkey"
+DETAIL:  Key (questionid)=(0) is not present in table "questions".
+)
+
+ 
+databaseViolations array = Array
+(
+    [0] => Array
+        (
+            [table] => QuestionsTombstone
+            [action] => delete
+            [unique_attribute] => 0
+            [reason] => unknown
+        )
+
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+insert of testUserName1 with code 23505 duplicate username 
+info for error is Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "users_username_key"
+DETAIL:  Key (username)=(testUserName1) already exists.
+)
+
+ 
+insert of testUserName1 with code 22001 exceeded varchar limit 
+info for error is Array
+(
+    [0] => 22001
+    [1] => 7
+    [2] => ERROR:  value too long for type character varying(255)
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
+databaseViolations array = Array
+(
+)
+
+ 
